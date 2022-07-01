@@ -1,0 +1,50 @@
+
+
+#sidebar {
+    width: var(--sidebar_width);
+    height: 100%;
+    position: fixed;
+    background-color: #242424;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sidebarHeader {
+    width: 330px;
+    display: flex;
+    margin: 67px auto 5px;
+    justify-content: space-between;
+}
+
+.line {
+    width: 113px;
+    height: 2px;
+    /* background-color: #EFEFEF; */
+    background-color: #707070;
+    margin-top: 12px;
+
+}
+
+.header {
+    color: #EFEFEF;
+    font-size: 24px;
+}
+
+
+.sidebarSection {
+    margin: 5px 30px;
+    font-size: 32px;
+}
+
+#sidebarDevHeader {
+    margin-top: 10px;
+}
+
+
+.sbASection {
+    color: #EFEFEF;
+    text-decoration: none;
+}
+
+.sbASection:visited {
+    color: #EFEFEF;
+}

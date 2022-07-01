@@ -1,0 +1,82 @@
+
+#main {
+    padding: 40px 64px 0px 64px;
+    box-sizing: border-box;
+
+}
+
+
+#sbContacts {
+    color: #889CF4;
+}
+
+#contactsHeader {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #EFEFEF;
+}
+
+
+#contactsDesc {
+    width: 1080px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #EFEFEF;
+    margin-bottom: 45px;
+}
+
+#contactContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactCard {
+    width: 680px;
+    height: 70px;
+    display: flex;
+    background-color: #242424;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    padding: 13px 25px;
+}
+
+.icon {
+    width: 46px;
+    height: 36px;
+    margin-right: 30px;
+}
+
+.icon svg{
+    fill: #FEFEFE;
+}
+
+.key {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #EFEFEF;
+    margin-top: 8px;
+}
+
+.value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #EFEFEF;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+#v1 {
+    margin-left: 190px;
+}
+
+#v2 {
+    margin-left: 30px;
+}
+
+#v3 {
+    margin-left: 150px;
+}
+
+#v4 {
+    margin-left: 168px;
+}
