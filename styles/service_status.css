@@ -1,0 +1,102 @@
+
+
+#main {
+    padding: 40px 64px 0px 64px;
+    box-sizing: border-box;
+}
+
+
+#sbServiceStatus {
+    color: #889CF4;
+}
+
+
+#serviceStatusHeader {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #EFEFEF;
+}
+
+
+#desc {
+    width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #EFEFEF;
+}
+
+
+.serviceContainer {
+    margin-bottom: 20px;
+}
+
+#endpointsContainer {
+    margin-top: 20px;
+    width: 800px;
+}
+
+
+.serviceHeader {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #EFEFEF;
+}
+
+
+.endpoint {
+    margin-bottom: 10px;
+}
+
+
+.endpointHeader {
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    color: #EFEFEF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+.green { background-color: #74FFB9 }
+.yellow { background-color: #FFFF74 }
+.red { background-color: #FF5858 }
+
+.endpoint_path {
+    margin-top: 5px
+}
+
+
+.stuff {
+    font-family: 'Roboto Mono', monospace;
+    color: #EFEFEF;
+    font-size: 24px;
+    margin: 5px 0px 5px 100px;
+}
+
+.pp_verysmol { 
+    margin-left: 15px; 
+    font-weight: normal;
+}
+
+
+.botRow {
+    display: flex;
+}
+
+.discordBot {
+    margin-left: 15px;    
+}
+
+.tgBot {
+    margin-left: 0px;
+}

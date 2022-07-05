@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/sidebar.css">
+    <link rel="stylesheet" href="../styles/service_status.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="sidebar">
+
+            <div id="sidebarLandingHeader" class="sidebarHeader">
+                <div class="line"></div>
+                <div class="header">landing</div>
+                <div class="line"></div>
+            </div>
+
+            <div id="sidebarLandingShit">
+                <div class="sidebarSection">
+                    <a href="../about/index.html" class="sbASection">about me</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection">projects</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection">services</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="../contacts/index.html" class="sbASection">contacts</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection">blog</a>
+                </div>
+            </div>
+
+            <div id="sidebarDevHeader" class="sidebarHeader">
+                <div class="line"></div>
+                <div class="header">dev section</div>
+                <div class="line"></div>
+            </div>
+
+            <div id="sidebarDevShit">
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection">my apis</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection">public data</a>
+                </div>
+                <div class="sidebarSection">
+                    <a href="#" class="sbASection" id="sbServiceStatus">service status</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="main">
+
+            <div id="serviceStatusHeader">
+                Service status
+            </div>
+
+            <div id="desc">
+                Here are the results of last automated tests of services. If you are having issue but its not properly
+                displayed, please
+                report it at contact@rferee.dev (Or by any other means, you can find all the ways to reach me at the
+                contacts page).
+            </div>
+
+            <div id="endpointsContainer" class="serviceContainer">
+                <div class="serviceHeader">
+                    Endpoints:
+                </div>
+                <div class="endpoint">
+                    <div class="endpointHeader">
+                        <div class="circle green"></div>
+                        <div class="endpoint_path">
+                            /endpoint_pp_verybig
+                        </div>
+                    </div>
+                    <div class="endpointStuff">
+                        <div class="stuff">
+                            Assigned status: PASSED
+                        </div>
+
+                        <div class="stuff">
+                            Performed tests: PING, REQUEST
+                        </div>
+
+                        <div class="stuff">
+                            Last responded: 20.06.2022 12:16:32
+                        </div>
+
+                        <div class="stuff">
+                            Last outage: 06.09.0420 17:23:43
+                        </div>
+                    </div>
+                </div>
+
+                <div class="endpoint">
+                    <div class="endpointHeader">
+                        <div class="circle yellow"></div>
+                        <div class="endpoint_path">
+                            /endpoint_pp_verysmol
+                        </div>
+                        <div class="stuff pp_verysmol">(Status: LIMITD)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="discordBotsContainer" class="serviceContainer">
+                <div class="serviceHeader">
+                    discord bots:
+                </div>
+                <div class="botRow">
+                    <div class="circle green"></div>
+                    <div class="stuff discordBot">
+                        This bot is alive (Status: ONLINE)
+                    </div>
+                </div>
+
+                <div class="botRow">
+                    <div class="circle red"></div>
+                    <div class="stuff discordBot">
+                        This bot fucking died (Status: OUTAGE)
+                    </div>
+                </div>
+            </div>
+
+            <div id="telegramBotsContainer" class="serviceContainer">
+                <div class="serviceHeader">
+                    telegram bots:
+                </div>
+
+                <div class="stuff tgBot">Telegram bots are not currently tracked.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
